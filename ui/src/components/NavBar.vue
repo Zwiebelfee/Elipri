@@ -46,7 +46,7 @@ div {
   list-style-type: none;
   padding: 0;
 } */
-/* li {
+li {
   display: inline-block;
   margin: 0 20px;
   color: #7c71e3;
@@ -55,5 +55,5 @@ div {
 li:hover {
   border-bottom: 1px solid #56569f;
   color: #56569f;
-} */
+}
 </style>
