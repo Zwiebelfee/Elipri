@@ -3,16 +3,16 @@
     <h1>Elipri</h1>
     <ul>
       <li>
-        <a>Animations</a>
+        <router-link to='/animations'>Animations</router-link>
       </li>
       <li>
-        <a>Illustrations</a>
+        <router-link to='/'>Illustrations</router-link>
       </li>
       <li>
-        <a>About</a>
+        <router-link to='/about'>About</router-link>
       </li>
       <li>
-        <a>Contact</a>
+        <router-link to='/contact'>Contact</router-link>
       </li>
     </ul>
   </div>
@@ -52,8 +52,16 @@ li {
   color: #7c71e3;
   height: 30px;
 }
+
+a {
+  color: #7c71e3;
+}
+
+a:hover {
+  color: #56569f;
+}
+
 li:hover {
   border-bottom: 1px solid #56569f;
-  color: #56569f;
 }
 </style>

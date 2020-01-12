@@ -45,18 +45,4 @@ h3 {
   margin-bottom: 25px;
   color: #968aff;
 }
-/* ul {
-  list-style-type: none;
-  padding: 0;
-} */
-li {
-  display: inline-block;
-  margin: 0 20px;
-  color: #7c71e3;
-  height: 30px;
-}
-li:hover {
-  border-bottom: 1px solid #56569f;
-  color: #56569f;
-}
 </style>
