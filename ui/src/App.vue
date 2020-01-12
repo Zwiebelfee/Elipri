@@ -8,15 +8,18 @@
     <div class="body">
       <router-view />
     </div>
+    <Footer />
   </div>
 </template>
 <script>
 import NavBar from '@/components/NavBar.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
-    NavBar
+    NavBar,
+    Footer,
   }
 }
 </script>
@@ -27,12 +30,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #1a1a4c;
-}
-
-.body {
-  height: 500px;
-  background: rgb(225,181,232);
-  background: linear-gradient(180deg, rgba(225,181,232,1) 0%, rgba(175,123,218,1) 33%, rgba(135,115,208,1) 66%, rgba(67,63,156,1) 100%);
 }
 
 #nav {
@@ -46,5 +43,19 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6H6Mk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 </style>
