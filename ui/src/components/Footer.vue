@@ -3,7 +3,7 @@
   <div class="wrapper">
     <h3>Elipri</h3>
     <div>
-      impressum impressum impressum impressum impressum impressum impressum impressum impressum impressum 
+      For inquiries and commissions, please contact <a href="mailto:info@elipri.com">info@elipri.com</a>
     </div>
   </div>
 </footer>
@@ -33,6 +33,7 @@ footer {
   color: #FFF;
   height: 150px;
   background-color: #433f9c;
+  color: rgb(240, 189, 255);
 }
 .wrapper {
   width: 60%;
@@ -40,9 +41,12 @@ footer {
 }
 h3 {
   font-family: 'Pacifico', cursive;
-  text-align: left;
   font-size: 35px;
   margin-bottom: 25px;
   color: #968aff;
+}
+a {
+  color: rgb(240, 189, 255);
+  text-decoration: underline;
 }
 </style>
