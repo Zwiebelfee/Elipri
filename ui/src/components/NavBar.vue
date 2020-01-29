@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>Elipri</h1>
+    <router-link to='/'>
+      <h1>Elipri</h1>
+    </router-link>
     <ul>
       <li>
         <router-link to='/animations'>Animations</router-link>
