@@ -11,7 +11,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import animations from '../assets/animations.json';
-import { vueVimeoPlayer } from 'vue-vimeo-player';
+const { vueVimeoPlayer } =  require('vue-vimeo-player');
 
 export default Vue.extend({
   name: 'AnimationList',
