@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Construction from '../views/Construction.vue';
+import ArtList from '../components/ArtList.vue';
+import AnimationList from '../components/AnimationList.vue';
 
 Vue.use(VueRouter)
 
@@ -9,7 +11,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: Home
+    component: ArtList
   },
   {
     path: '/fake',
@@ -22,7 +24,7 @@ const routes = [
   {
     path: '/animations',
     name: 'animations',
-    component: Construction,
+    component: AnimationList,
   },
   {
     path: '/contact',
