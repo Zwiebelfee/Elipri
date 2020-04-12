@@ -6,7 +6,7 @@
 
 <script>
 // @ is an alias to /src
-import ArtList from '@/components/ArtList';
+import ArtList from '@/components/ArtList.vue';
 
 export default {
   name: 'home',
@@ -14,6 +14,6 @@ export default {
     ArtList,
   },
   computed: {
-  }
-}
+  },
+};
 </script>

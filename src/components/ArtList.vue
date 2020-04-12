@@ -9,14 +9,14 @@
 
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue';
 import gallery from '../assets/gallery.json';
 
 export default Vue.extend({
   name: 'ArtList',
   data: () => ({
-    gallery: gallery,
+    gallery,
   }),
 });
 </script>
@@ -25,7 +25,13 @@ export default Vue.extend({
 <style scoped>
 .artlist {
   background: rgb(225,181,232);
-  background: linear-gradient(180deg, rgba(225,181,232,1) 0%, rgba(175,123,218,1) 33%, rgba(135,115,208,1) 66%, rgba(67,63,156,1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(225,181,232,1) 0%,
+    rgba(175,123,218,1) 33%,
+    rgba(135,115,208,1) 66%,
+    rgba(67,63,156,1) 100%
+  );
 }
 
 .flex-wrapper {
